@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PlaywrightSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Playwright101 Test Scenario 3 - Firefox macOS Monterey(failed)">
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="pw-firefox"/>
+    <parameter name="platform" value="macOS Monterey"/>
+    <classes>
+      <class name="playwrightTestNG.LambdatestPlaywright101">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="test_scenario3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- playwrightTestNG.LambdatestPlaywright101 -->
+    </classes>
+  </test> <!-- Playwright101 Test Scenario 3 - Firefox macOS Monterey(failed) -->
+</suite> <!-- Failed suite [PlaywrightSuite] -->

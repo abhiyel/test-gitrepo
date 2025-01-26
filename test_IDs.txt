@@ -1,0 +1,12 @@
+I have run the tests on 2 browser and platform combinations and the Test IDs for all the test scenarios with such combinations are as below - 
+
+1) Chromium browser and Windows 10 platform
+
+test scenario 1 Test ID - SDXG4-NIHXB-UQHWL-O5DVL
+test scenario 2 Test ID - RU9Q9-O9J1A-0LXIP-WYSNX
+test scenario 3 Test ID - 2NI7D-WKMOI-7T9PF-LYXM9
+
+2) Firefox browser and macOS Monterey platform
+test scenario 1 Test ID - EZLCM-CNY7T-SCLEN-9QQWK
+test scenario 2 Test ID - STITJ-MO9L2-D38O2-YJZRR
+test scenario 3 Test ID - DQZ1B-Q6E60-T04ER-9FUWD

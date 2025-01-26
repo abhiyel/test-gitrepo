@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-26T05:19:13Z" name="PlaywrightSuite" finished-at="2025-01-26T05:20:26Z" duration-ms="72453">
+    <groups>
+    </groups>
+    <test started-at="2025-01-26T05:19:13Z" name="Playwright101 Test Scenario 1 - Firefox macOS Monterey" finished-at="2025-01-26T05:19:38Z" duration-ms="24543">
+      <class name="playwrightTestNG.LambdatestPlaywright101">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:playwrightTestNG.LambdatestPlaywright101@2cf3d63b]" started-at="2025-01-26T05:19:13Z" name="setup" finished-at="2025-01-26T05:19:32Z" duration-ms="18679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Monterey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario1()[pri:1, instance:playwrightTestNG.LambdatestPlaywright101@2cf3d63b]" started-at="2025-01-26T05:19:32Z" name="test_scenario1" finished-at="2025-01-26T05:19:38Z" duration-ms="5771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario1 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:playwrightTestNG.LambdatestPlaywright101@2cf3d63b]" started-at="2025-01-26T05:19:38Z" name="quitDriver" finished-at="2025-01-26T05:19:38Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- playwrightTestNG.LambdatestPlaywright101 -->
+    </test> <!-- Playwright101 Test Scenario 1 - Firefox macOS Monterey -->
+    <test started-at="2025-01-26T05:19:38Z" name="Playwright101 Test Scenario 2 - Firefox macOS Monterey" finished-at="2025-01-26T05:20:02Z" duration-ms="24250">
+      <class name="playwrightTestNG.LambdatestPlaywright101">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:playwrightTestNG.LambdatestPlaywright101@1c5920df]" started-at="2025-01-26T05:19:38Z" name="setup" finished-at="2025-01-26T05:19:53Z" duration-ms="15402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Monterey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario2()[pri:2, instance:playwrightTestNG.LambdatestPlaywright101@1c5920df]" started-at="2025-01-26T05:19:53Z" name="test_scenario2" finished-at="2025-01-26T05:20:02Z" duration-ms="8817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario2 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:playwrightTestNG.LambdatestPlaywright101@1c5920df]" started-at="2025-01-26T05:20:02Z" name="quitDriver" finished-at="2025-01-26T05:20:02Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- playwrightTestNG.LambdatestPlaywright101 -->
+    </test> <!-- Playwright101 Test Scenario 2 - Firefox macOS Monterey -->
+    <test started-at="2025-01-26T05:20:02Z" name="Playwright101 Test Scenario 3 - Firefox macOS Monterey" finished-at="2025-01-26T05:20:26Z" duration-ms="23525">
+      <class name="playwrightTestNG.LambdatestPlaywright101">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:playwrightTestNG.LambdatestPlaywright101@1349883]" started-at="2025-01-26T05:20:02Z" name="setup" finished-at="2025-01-26T05:20:16Z" duration-ms="14023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pw-firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Monterey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_scenario3()[pri:3, instance:playwrightTestNG.LambdatestPlaywright101@1349883]" started-at="2025-01-26T05:20:16Z" name="test_scenario3" finished-at="2025-01-26T05:20:26Z" duration-ms="9459" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Error message not as expected expected [Please fill out this field.] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Error message not as expected expected [Please fill out this field.] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at playwrightTestNG.LambdatestPlaywright101.test_scenario3(LambdatestPlaywright101.java:159)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_scenario3 -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:playwrightTestNG.LambdatestPlaywright101@1349883]" started-at="2025-01-26T05:20:26Z" name="quitDriver" finished-at="2025-01-26T05:20:26Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- playwrightTestNG.LambdatestPlaywright101 -->
+    </test> <!-- Playwright101 Test Scenario 3 - Firefox macOS Monterey -->
+  </suite> <!-- PlaywrightSuite -->
+</testng-results>
