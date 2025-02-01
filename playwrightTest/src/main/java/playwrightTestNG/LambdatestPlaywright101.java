@@ -31,8 +31,8 @@ public class LambdatestPlaywright101 {
 		JsonObject capabilities = new JsonObject();
 		JsonObject ltOptions = new JsonObject();
 
-		String user = "abhishek_yelne";
-		String accessKey = "8uEOzmj44bEFX5SWISEjw3W3GXlh5ghLZES9nlLKxEFESEwPCt";
+		String user = "USER";
+		String accessKey = "ACCESS_KEY";
 
 		capabilities.addProperty("browsername", browsername); // Browsers allowed: `Chrome`, `MicrosoftEdge`,
 															// `pw-chromium`, `pw-firefox` and `pw-webkit`
